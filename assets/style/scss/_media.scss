@@ -1,0 +1,74 @@
+@media(max-width: 500px){
+    .nav__list{
+        display: none;
+    }
+    .nav__right{
+        display: none;
+    }
+    .header{
+        background-color: #fff;
+        padding: 10px 20px;
+    }
+    .main__title{
+        font-size: 40px;
+        width: 445px;
+    }
+    .cars__wrapper{
+        display: grid;
+        grid-template-columns: 387px;
+        justify-content: center;
+    }
+    .cars__card{
+        margin: 0 auto;
+    }
+    .img{
+        width: 100%;
+    }
+    .services__cards{
+        display: grid;
+        grid-template-columns: 400px;
+    }
+    .services__card{
+        margin-bottom: 5px;
+    }
+    .photo__cards{
+        display: flex;
+        flex-direction: column;
+        margin-left: 100px;
+    }
+    .photo__card3{
+        margin-left: -40px;
+    }
+    .footer__title {
+        font-size: 30px;
+    }
+    .footer__subtitle{
+        width: 400px;
+    }
+    .footer{   
+        padding-top: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .footer__box--1{
+        width: 320px;
+    }
+    .footer__box--text{
+        padding-left: 10px;
+    }
+    .footer__box--2{
+        width: 320px;
+    }
+    .footer__info{
+        width: 229px;
+    }
+    .footer__line {
+        width:100%;
+    }  
+    .photo__line{
+        width: 100%;
+    }
+    .burger {
+        display: flex;
+    }
+}
