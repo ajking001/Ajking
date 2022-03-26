@@ -28,3 +28,6 @@ myCarousel.addEventListener('slide.bs.carousel', function () {
 })
 
 
+$('#myCarousel').on('slide.bs.carousel', function () {
+    // do something…
+  })
